@@ -1,0 +1,6 @@
+env/
+__pycache__
+setup_console.bat
+.vscode/
+Redis.lnk
+src/lucid/

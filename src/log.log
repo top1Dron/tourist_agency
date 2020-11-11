@@ -1,0 +1,138 @@
+INFO 2020-11-11 11:37:10,006 views 14512 15984 Backing up tourist_agency database
+INFO 2020-11-11 11:37:10,007 views 14512 15984 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:37:10,008 views 14512 15984 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -U admin -w tourist_agency 
+INFO 2020-11-11 11:37:10,058 views 14512 15984 db dump successfull
+INFO 2020-11-11 11:37:38,293 views 14512 9828 Backing up tourist_agency database
+INFO 2020-11-11 11:37:38,293 views 14512 9828 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:37:38,293 views 14512 9828 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -U admin -w tourist_agency 
+INFO 2020-11-11 11:37:38,345 views 14512 9828 db dump successfull
+INFO 2020-11-11 11:40:20,991 views 17716 2884 Backing up tourist_agency database
+INFO 2020-11-11 11:40:20,991 views 17716 2884 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:40:20,991 views 17716 2884 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -p 5432-U admin -w tourist_agency 
+INFO 2020-11-11 11:40:21,039 views 17716 2884 db dump successfull
+INFO 2020-11-11 11:40:38,212 views 17556 11544 Backing up tourist_agency database
+INFO 2020-11-11 11:40:38,213 views 17556 11544 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:40:38,213 views 17556 11544 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -p 5432-U admin tourist_agency 
+INFO 2020-11-11 11:40:38,273 views 17556 11544 db dump successfull
+INFO 2020-11-11 11:41:15,232 views 3060 4472 Backing up tourist_agency database
+INFO 2020-11-11 11:41:15,232 views 3060 4472 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:41:15,233 views 3060 4472 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency 
+INFO 2020-11-11 11:41:15,280 views 3060 4472 db dump successfull
+INFO 2020-11-11 11:44:54,816 views 656 12760 Backing up tourist_agency database
+INFO 2020-11-11 11:44:54,816 views 656 12760 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:44:54,816 views 656 12760 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11:44:54.sql"
+INFO 2020-11-11 11:44:54,833 views 656 12760 db dump successfull
+INFO 2020-11-11 11:46:11,254 views 6220 8392 Backing up tourist_agency database
+INFO 2020-11-11 11:46:11,255 views 6220 8392 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:46:11,255 views 6220 8392 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-46-11.sql"
+INFO 2020-11-11 11:46:11,311 views 6220 8392 db dump successfull
+INFO 2020-11-11 11:48:36,655 views 12752 12680 Backing up tourist_agency database
+INFO 2020-11-11 11:48:36,656 views 12752 12680 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:48:36,656 views 12752 12680 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-48-36.sql"
+INFO 2020-11-11 11:48:36,724 views 12752 12680 db dump successfull
+INFO 2020-11-11 11:48:56,737 views 12752 14904 Backing up tourist_agency database
+INFO 2020-11-11 11:48:56,737 views 12752 14904 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:48:56,737 views 12752 14904 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-48-56.sql"
+INFO 2020-11-11 11:48:56,782 views 12752 14904 db dump successfull
+INFO 2020-11-11 11:49:19,382 views 16068 9680 Backing up tourist_agency database
+INFO 2020-11-11 11:49:19,382 views 16068 9680 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:49:19,382 views 16068 9680 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h http://127.0.0.1:8000:5432 -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-49-19.sql"
+INFO 2020-11-11 11:49:19,431 views 16068 9680 db dump successfull
+INFO 2020-11-11 11:49:37,645 views 16288 5564 Backing up tourist_agency database
+INFO 2020-11-11 11:49:37,646 views 16288 5564 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:49:37,646 views 16288 5564 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h http://127.0.0.1:5432 -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-49-37.sql"
+INFO 2020-11-11 11:49:37,695 views 16288 5564 db dump successfull
+INFO 2020-11-11 11:51:07,735 views 2276 5724 Backing up tourist_agency database
+INFO 2020-11-11 11:51:07,736 views 2276 5724 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:51:07,736 views 2276 5724 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h local -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-51-07.sql"
+INFO 2020-11-11 11:51:07,783 views 2276 5724 db dump successfull
+INFO 2020-11-11 11:51:32,419 views 15224 8100 Backing up tourist_agency database
+INFO 2020-11-11 11:51:32,419 views 15224 8100 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:51:32,419 views 15224 8100 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-51-32.sql"
+INFO 2020-11-11 11:51:32,468 views 15224 8100 db dump successfull
+INFO 2020-11-11 11:52:24,045 views 13752 9320 Backing up tourist_agency database
+INFO 2020-11-11 11:52:24,045 views 13752 9320 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 11:52:24,045 views 13752 9320 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-52-24.sql"
+INFO 2020-11-11 11:52:24,098 views 13752 9320 db dump successfull
+INFO 2020-11-11 12:27:21,312 views 2984 7880 Backing up tourist_agency database
+INFO 2020-11-11 12:27:21,313 views 2984 7880 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-11 12:27:21,313 views 2984 7880 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--12-27-21.sql"
+INFO 2020-11-11 12:27:21,421 views 2984 7880 db dump successfull
+DEBUG 2020-11-11 13:50:12,382 base 6496 7384 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\urls\resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from 'C:\\Users\\Андрей\\PycharmProjects\\tourist_agency\\src\\agency\\urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'agency.urls' from 'C:\\Users\\Андрей\\PycharmProjects\\tourist_agency\\src\\agency\\urls.py'> (None:None) 'agency/'>
+DEBUG 2020-11-11 13:50:12,387 base 6496 7384 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\urls\resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from 'C:\\Users\\Андрей\\PycharmProjects\\tourist_agency\\src\\agency\\urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
