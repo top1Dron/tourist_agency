@@ -11,8 +11,8 @@ app.autodiscover_tasks()
 
 
 app.conf.beat_schedule = {
-    'backup-database-every-day':{
-        'task': 'agency.tasks.task_hello',
-        'schedule': crontab(),
+    'regular_daily_database_backup':{
+        'task': 'agency.tasks.regular_backup_database',
+        'schedule': crontab(hour='3'),
     },
 }

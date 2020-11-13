@@ -3,4 +3,6 @@ __pycache__
 setup_console.bat
 .vscode/
 Redis.lnk
-src/lucid/
+src/lucid
+src/src
+src/~/

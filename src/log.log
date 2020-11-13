@@ -20,119 +20,831 @@ INFO 2020-11-11 11:41:15,233 views 3060 4472 "C:\Program Files\PostgreSQL\12\bin
 INFO 2020-11-11 11:41:15,280 views 3060 4472 db dump successfull
 INFO 2020-11-11 11:44:54,816 views 656 12760 Backing up tourist_agency database
 INFO 2020-11-11 11:44:54,816 views 656 12760 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
-INFO 2020-11-11 11:44:54,816 views 656 12760 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11:44:54.sql"
+INFO 2020-11-11 11:44:54,816 views 656 12760 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\src\backup\2020-11-11--11:44:54.sql"
 INFO 2020-11-11 11:44:54,833 views 656 12760 db dump successfull
 INFO 2020-11-11 11:46:11,254 views 6220 8392 Backing up tourist_agency database
 INFO 2020-11-11 11:46:11,255 views 6220 8392 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
-INFO 2020-11-11 11:46:11,255 views 6220 8392 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-46-11.sql"
+INFO 2020-11-11 11:46:11,255 views 6220 8392 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-46-11.sql"
 INFO 2020-11-11 11:46:11,311 views 6220 8392 db dump successfull
 INFO 2020-11-11 11:48:36,655 views 12752 12680 Backing up tourist_agency database
 INFO 2020-11-11 11:48:36,656 views 12752 12680 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
-INFO 2020-11-11 11:48:36,656 views 12752 12680 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-48-36.sql"
+INFO 2020-11-11 11:48:36,656 views 12752 12680 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-48-36.sql"
 INFO 2020-11-11 11:48:36,724 views 12752 12680 db dump successfull
 INFO 2020-11-11 11:48:56,737 views 12752 14904 Backing up tourist_agency database
 INFO 2020-11-11 11:48:56,737 views 12752 14904 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
-INFO 2020-11-11 11:48:56,737 views 12752 14904 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-48-56.sql"
+INFO 2020-11-11 11:48:56,737 views 12752 14904 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-48-56.sql"
 INFO 2020-11-11 11:48:56,782 views 12752 14904 db dump successfull
 INFO 2020-11-11 11:49:19,382 views 16068 9680 Backing up tourist_agency database
 INFO 2020-11-11 11:49:19,382 views 16068 9680 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
-INFO 2020-11-11 11:49:19,382 views 16068 9680 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h http://127.0.0.1:8000:5432 -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-49-19.sql"
+INFO 2020-11-11 11:49:19,382 views 16068 9680 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h http://127.0.0.1:8000:5432 -U admin tourist_agency > "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-49-19.sql"
 INFO 2020-11-11 11:49:19,431 views 16068 9680 db dump successfull
 INFO 2020-11-11 11:49:37,645 views 16288 5564 Backing up tourist_agency database
 INFO 2020-11-11 11:49:37,646 views 16288 5564 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
-INFO 2020-11-11 11:49:37,646 views 16288 5564 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h http://127.0.0.1:5432 -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-49-37.sql"
+INFO 2020-11-11 11:49:37,646 views 16288 5564 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h http://127.0.0.1:5432 -U admin tourist_agency > "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-49-37.sql"
 INFO 2020-11-11 11:49:37,695 views 16288 5564 db dump successfull
 INFO 2020-11-11 11:51:07,735 views 2276 5724 Backing up tourist_agency database
 INFO 2020-11-11 11:51:07,736 views 2276 5724 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
-INFO 2020-11-11 11:51:07,736 views 2276 5724 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h local -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-51-07.sql"
+INFO 2020-11-11 11:51:07,736 views 2276 5724 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h local -U admin tourist_agency > "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-51-07.sql"
 INFO 2020-11-11 11:51:07,783 views 2276 5724 db dump successfull
 INFO 2020-11-11 11:51:32,419 views 15224 8100 Backing up tourist_agency database
 INFO 2020-11-11 11:51:32,419 views 15224 8100 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
-INFO 2020-11-11 11:51:32,419 views 15224 8100 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-51-32.sql"
+INFO 2020-11-11 11:51:32,419 views 15224 8100 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-51-32.sql"
 INFO 2020-11-11 11:51:32,468 views 15224 8100 db dump successfull
 INFO 2020-11-11 11:52:24,045 views 13752 9320 Backing up tourist_agency database
 INFO 2020-11-11 11:52:24,045 views 13752 9320 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
-INFO 2020-11-11 11:52:24,045 views 13752 9320 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-52-24.sql"
+INFO 2020-11-11 11:52:24,045 views 13752 9320 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\src\backup\2020-11-11--11-52-24.sql"
 INFO 2020-11-11 11:52:24,098 views 13752 9320 db dump successfull
 INFO 2020-11-11 12:27:21,312 views 2984 7880 Backing up tourist_agency database
 INFO 2020-11-11 12:27:21,313 views 2984 7880 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
-INFO 2020-11-11 12:27:21,313 views 2984 7880 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\Андрей\PycharmProjects\tourist_agency\src\backup\2020-11-11--12-27-21.sql"
+INFO 2020-11-11 12:27:21,313 views 2984 7880 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\src\backup\2020-11-11--12-27-21.sql"
 INFO 2020-11-11 12:27:21,421 views 2984 7880 db dump successfull
 DEBUG 2020-11-11 13:50:12,382 base 6496 7384 Exception while resolving variable 'name' in template 'unknown'.
 Traceback (most recent call last):
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
     response = get_response(request)
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 165, in _get_response
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 165, in _get_response
     callback, callback_args, callback_kwargs = self.resolve_request(request)
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 288, in resolve_request
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 288, in resolve_request
     resolver_match = resolver.resolve(request.path_info)
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\urls\resolvers.py", line 576, in resolve
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\urls\resolvers.py", line 576, in resolve
     raise Resolver404({'tried': tried, 'path': new_path})
-django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from 'C:\\Users\\Андрей\\PycharmProjects\\tourist_agency\\src\\agency\\urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from 'C:\\Users\\пїЅпїЅпїЅпїЅпїЅпїЅ\\PycharmProjects\\tourist_agency\\src\\agency\\urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
     current = current[bit]
 TypeError: 'URLResolver' object is not subscriptable
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
     current = getattr(current, bit)
 AttributeError: 'URLResolver' object has no attribute 'name'
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
     current = current[int(bit)]
 ValueError: invalid literal for int() with base 10: 'name'
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 848, in _resolve_lookup
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 848, in _resolve_lookup
     raise VariableDoesNotExist("Failed lookup for key "
-django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'agency.urls' from 'C:\\Users\\Андрей\\PycharmProjects\\tourist_agency\\src\\agency\\urls.py'> (None:None) 'agency/'>
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'agency.urls' from 'C:\\Users\\пїЅпїЅпїЅпїЅпїЅпїЅ\\PycharmProjects\\tourist_agency\\src\\agency\\urls.py'> (None:None) 'agency/'>
 DEBUG 2020-11-11 13:50:12,387 base 6496 7384 Exception while resolving variable 'name' in template 'unknown'.
 Traceback (most recent call last):
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
     response = get_response(request)
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 165, in _get_response
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 165, in _get_response
     callback, callback_args, callback_kwargs = self.resolve_request(request)
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 288, in resolve_request
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\core\handlers\base.py", line 288, in resolve_request
     resolver_match = resolver.resolve(request.path_info)
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\urls\resolvers.py", line 576, in resolve
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\urls\resolvers.py", line 576, in resolve
     raise Resolver404({'tried': tried, 'path': new_path})
-django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from 'C:\\Users\\Андрей\\PycharmProjects\\tourist_agency\\src\\agency\\urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from 'C:\\Users\\пїЅпїЅпїЅпїЅпїЅпїЅ\\PycharmProjects\\tourist_agency\\src\\agency\\urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
     current = current[bit]
 TypeError: 'URLResolver' object is not subscriptable
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
     current = getattr(current, bit)
 AttributeError: 'URLResolver' object has no attribute 'name'
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
     current = current[int(bit)]
 ValueError: invalid literal for int() with base 10: 'name'
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\Андрей\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 848, in _resolve_lookup
+  File "C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\PycharmProjects\tourist_agency\env\lib\site-packages\django\template\base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+DEBUG 2020-11-12 23:04:43,823 base 2310 140383507490560 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>
+DEBUG 2020-11-12 23:04:43,830 base 2310 140383507490560 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+DEBUG 2020-11-12 23:04:50,086 base 2310 140383498049280 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>
+DEBUG 2020-11-12 23:04:50,087 base 2310 140383498049280 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+DEBUG 2020-11-12 23:04:50,494 base 2310 140383498049280 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>
+DEBUG 2020-11-12 23:04:50,495 base 2310 140383498049280 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+DEBUG 2020-11-12 23:05:41,654 base 2620 140213902636800 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>
+DEBUG 2020-11-12 23:05:41,660 base 2620 140213902636800 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+DEBUG 2020-11-12 23:05:41,853 base 2620 140213902636800 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>
+DEBUG 2020-11-12 23:05:41,858 base 2620 140213902636800 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+DEBUG 2020-11-12 23:10:11,170 base 2620 140213902636800 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>
+DEBUG 2020-11-12 23:10:11,174 base 2620 140213902636800 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+INFO 2020-11-12 23:52:47,789 views 3093 139724748486400 Backing up tourist_agency database
+INFO 2020-11-12 23:52:47,790 views 3093 139724748486400 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"
+INFO 2020-11-12 23:52:47,790 views 3093 139724748486400 "C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" -h localhost -U admin tourist_agency > "/usr/projects/tourist_agency/src/backup/2020-11-12--23-52-47/.psql"
+INFO 2020-11-12 23:52:47,809 views 3093 139724748486400 db dump successfull
+INFO 2020-11-12 23:54:35,092 views 3150 140509151397632 Backing up tourist_agency database
+INFO 2020-11-12 23:54:35,093 views 3150 140509151397632 pg_dump
+INFO 2020-11-12 23:54:35,093 views 3150 140509151397632 pg_dump -h localhost -U admin tourist_agency > "/usr/projects/tourist_agency/src/backup/2020-11-12--23-54-35/.psql"
+INFO 2020-11-12 23:54:35,131 views 3150 140509151397632 db dump successfull
+INFO 2020-11-12 23:55:38,496 views 3180 139834368751360 Backing up tourist_agency database
+INFO 2020-11-12 23:55:38,497 views 3180 139834368751360 pg_dump
+INFO 2020-11-12 23:55:38,497 views 3180 139834368751360 pg_dump -h localhost -U admin tourist_agency > "/usr/projects/tourist_agency/src/backup/2020-11-12--23-55-38.psql"
+INFO 2020-11-12 23:55:39,515 views 3180 139834368751360 db dump successfull
+INFO 2020-11-12 23:59:17,786 views 3180 139834368751360 Backing up tourist_agency database
+INFO 2020-11-12 23:59:17,793 views 3180 139834368751360 pg_dump
+INFO 2020-11-12 23:59:17,795 views 3180 139834368751360 pg_dump -h localhost -U admin tourist_agency > "/usr/projects/tourist_agency/src/backup/2020-11-12--23-59-17.psql"
+INFO 2020-11-12 23:59:18,350 views 3180 139834368751360 db dump successfull
+INFO 2020-11-12 23:59:43,658 views 3316 139894075815680 Backing up tourist_agency database
+INFO 2020-11-12 23:59:43,660 views 3316 139894075815680 pg_dump
+INFO 2020-11-12 23:59:43,660 views 3316 139894075815680 pg_dump -h localhost -U admin tourist_agency > "/usr/projects/tourist_agency/src/backup/2020-11-12-235943.psql"
+INFO 2020-11-12 23:59:44,105 views 3316 139894075815680 db dump successfull
+INFO 2020-11-13 00:09:10,604 views 3561 139685707192064 Backing up tourist_agency database
+INFO 2020-11-13 00:09:10,607 views 3561 139685707192064 pg_dump
+INFO 2020-11-13 00:09:10,611 views 3561 139685707192064 pg_dump -h localhost -U admin tourist_agency > "/usr/projects/tourist_agency/src/backup/tourist_agency-admin-2020-11-13-000910.psql"
+INFO 2020-11-13 00:09:11,711 views 3561 139685707192064 db dump successfull
+INFO 2020-11-13 00:23:23,148 views 4044 139656561305344 Backing up tourist_agency database
+INFO 2020-11-13 00:23:23,158 views 4044 139656561305344 pg_dump
+INFO 2020-11-13 00:23:23,158 views 4044 139656561305344 pg_dump -h localhost -U admin tourist_agency > "/usr/projects/tourist_agency/src/backup/default-admin-2020-11-13-002323.psql"
+INFO 2020-11-13 00:23:24,170 views 4044 139656561305344 db dump successfull
+INFO 2020-11-13 01:17:44,233 service 5761 140238853576512 2020-11-12--23-05-51
+INFO 2020-11-13 01:17:44,239 service 5762 140238853576512 2020-11-12--23-10-10
+INFO 2020-11-13 01:17:44,263 service 5761 140238853576512 2020-11-12--23-52-19
+INFO 2020-11-13 01:18:10,417 service 5761 140238853576512 Hello World
+INFO 2020-11-13 01:19:06,234 service 5761 140238853576512 Hello World
+INFO 2020-11-13 01:19:10,978 service 5761 140238853576512 Hello World
+INFO 2020-11-13 01:20:38,470 service 5761 140238853576512 Created database backup at 2020-11-13--01-20-38
+DEBUG 2020-11-13 01:20:39,017 base 5900 140308018587392 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>
+DEBUG 2020-11-13 01:20:39,044 base 5900 140308018587392 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) 'agency/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+INFO 2020-11-13 01:22:31,394 service 5761 140238853576512 Created database backup at 2020-11-13--01-22-31
+INFO 2020-11-13 01:30:01,006 service 5761 140238853576512 Created database backup at 2020-11-13--01-30-01
+INFO 2020-11-13 01:31:00,647 service 5761 140238853576512 Created database backup at 2020-11-13--01-31-00
+INFO 2020-11-13 01:32:00,930 service 5761 140238853576512 Created database backup at 2020-11-13--01-32-00
+INFO 2020-11-13 01:33:00,581 service 5761 140238853576512 Created database backup at 2020-11-13--01-33-00
+INFO 2020-11-13 01:34:00,685 service 5761 140238853576512 Created database backup at 2020-11-13--01-34-00
+INFO 2020-11-13 01:35:00,749 service 5761 140238853576512 Created database backup at 2020-11-13--01-35-00
+INFO 2020-11-13 01:36:00,968 service 5761 140238853576512 Created database backup at 2020-11-13--01-36-00
+INFO 2020-11-13 01:37:00,912 service 5761 140238853576512 Created database backup at 2020-11-13--01-37-00
+INFO 2020-11-13 01:38:00,611 service 5761 140238853576512 Created database backup at 2020-11-13--01-38-00
+INFO 2020-11-13 01:39:00,999 service 5761 140238853576512 Created database backup at 2020-11-13--01-39-00
+INFO 2020-11-13 01:40:00,581 service 5761 140238853576512 Created database backup at 2020-11-13--01-40-00
+INFO 2020-11-13 01:41:01,015 service 5761 140238853576512 Created database backup at 2020-11-13--01-41-01
+DEBUG 2020-11-13 01:44:14,100 base 6649 140695622072064 Exception while resolving variable 'name' in template 'unknown'.
+DEBUG 2020-11-13 01:53:29,784 base 7087 140292794971904 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) ''>, <URLPattern '' [name='index']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+DEBUG 2020-11-13 01:53:41,640 base 7087 140292812019456 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) ''>, <URLPattern '' [name='index']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+DEBUG 2020-11-13 02:01:21,319 base 7306 139727377405696 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'agency.urls' from '/usr/projects/tourist_agency/src/agency/urls.py'> (None:None) ''>, <URLPattern '' [name='index']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/projects/tourist_agency/env/lib/python3.9/site-packages/django/template/base.py", line 848, in _resolve_lookup
     raise VariableDoesNotExist("Failed lookup for key "
 django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>

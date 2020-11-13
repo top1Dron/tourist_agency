@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 ]
 
 DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
-DBBACKUP_STORAGE_OPTIONS = {'location': f'{BASE_DIR}\\backup'}
+DBBACKUP_STORAGE_OPTIONS = {'location': f'{BACKUP_DIR}'}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -70,7 +70,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             os.path.join(PROJECT_ROOT, 'templates'),
-            os.path.join(APPS_DIR, 'agency/templates/tour'),
+            # os.path.join(APPS_DIR, 'agency', 'templates', 'tour'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -93,11 +93,11 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tourist_agency',
-        'USER': 'admin',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': os.getenv('DB_NAME', 'tourist_agency'),
+        'USER': os.getenv('DB_USER','admin'),
+        'PASSWORD': os.getenv('DB_PASSWORD','top1Dron'),
+        'HOST': os.getenv('DB_HOST','localhost'),
+        'PORT': os.getenv('DB_PORT','5432'),
     }
 }
 
@@ -161,7 +161,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': f'{BASE_DIR}\\log.log',
+            'filename': os.path.join(BASE_DIR, 'log.log'),
             'formatter': 'myformatter',
         },
     },
@@ -181,11 +181,12 @@ LOGGING = {
     },
 }
 
-os.environ['PG_DUMP'] = r'"C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"'
+# os.environ['PG_DUMP'] = r'"C:\Program Files\PostgreSQL\12\bin\pg_dump.exe"'  #for windows
+os.environ['PG_DUMP'] = 'pg_dump'
 
 
 # redis and celery related settings
-REDIS_HOST = '127.0.0.1'
+REDIS_HOST = '0.0.0.0'
 REDIS_PORT = '6379'
 CELERY_BROKER_URL = f'redis://{REDIS_HOST}:{REDIS_PORT}/0'
 CELERY_BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
