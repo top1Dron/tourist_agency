@@ -1,0 +1,40 @@
+{% extends 'admin/base_site.html' %}
+
+{% block title %}Імпорт/Експорт{% endblock %}
+
+{% comment %}{% block extrastyle %}{{ block.super }}
+    <link rel="stylesheet" href="{{ STATIC_URL }}path/css/style.css">
+{% endblock %}{% endcomment %}
+
+{% comment %}{% block breadcrumbs %}
+    <div class="breadcrumbs">
+        <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+        &rsaquo;
+        <a href="{% url 'admin:spec_my_model_changelist' %}">Пункт хлебных крошек</a>
+        &rsaquo; Тестовая страница в админке
+    </div>
+{% endblock %}{% endcomment %}
+
+{% block content %}
+    
+    <h1>{{header}}</h1>
+
+    {% if form.errors %}
+        <p style="color: red;">
+            Please correct the error{{ form.errors|pluralize }} below.
+        </p>
+    {% endif %}
+
+    <form action="{% url 'agency:import_to_excel' %}" enctype="multipart/form-data"  method="post">
+        <table>
+            {{ form.as_table }}
+        </table>
+        {% csrf_token %}
+        <input type="submit" value="Submit">
+    </form></br>
+
+    <div class="fieldsets">
+        {% comment %} <button id='id_import_button'><a href="{% url 'agency:import_to_excel' %}">Імпорт з excel</button> {% endcomment %}
+        <button id='id_export_button'><a href="{% url 'agency:export_to_excel' %}">Експорт в excel</a></button>
+    </div>
+{% endblock %}

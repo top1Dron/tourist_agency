@@ -15,39 +15,8 @@ class AdditionalService(models.Model):
     class Meta:
         managed = False
         db_table = 'additional_service'
-
-
-    def __str__(self):
-        return f'{self.pk} {self.name}'
-
-
-class AuthGroup(models.Model):
-    name = models.CharField(unique=True, max_length=150)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_group'
-
-
-class AuthGroupPermissions(models.Model):
-    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
-    permission = models.ForeignKey('AuthPermission', models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_group_permissions'
-        unique_together = (('group', 'permission'),)
-
-
-class AuthPermission(models.Model):
-    name = models.CharField(max_length=255)
-    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING)
-    codename = models.CharField(max_length=100)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_permission'
-        unique_together = (('content_type', 'codename'),)
+        verbose_name = "Додаткова послуга"
+        verbose_name_plural = "Додаткові послуги"
 
 
 class City(models.Model):
@@ -57,6 +26,12 @@ class City(models.Model):
     class Meta:
         managed = False
         db_table = 'city'
+        verbose_name = "Місто"
+        verbose_name_plural = "Міста"
+
+
+    def __str__(self):
+        return f'{self.name}'
 
 
 class Client(models.Model):
@@ -66,6 +41,8 @@ class Client(models.Model):
     class Meta:
         managed = False
         db_table = 'client'
+        verbose_name = "Клієнт"
+        verbose_name_plural = "Клієнти"
 
 
 class Country(models.Model):
@@ -74,6 +51,13 @@ class Country(models.Model):
     class Meta:
         managed = False
         db_table = 'country'
+        verbose_name = "Країна"
+        verbose_name_plural = "Країни"
+
+
+    def __str__(self):
+        return self.name
+    
 
 
 class DepartureCity(models.Model):
@@ -82,51 +66,13 @@ class DepartureCity(models.Model):
     class Meta:
         managed = False
         db_table = 'departure_city'
+        verbose_name = "Місто відправлення"
+        verbose_name_plural = "Міста відправлення"
 
 
-class DjangoAdminLog(models.Model):
-    action_time = models.DateTimeField()
-    object_id = models.TextField(blank=True, null=True)
-    object_repr = models.CharField(max_length=200)
-    action_flag = models.SmallIntegerField()
-    change_message = models.TextField()
-    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING, blank=True, null=True)
-    user = models.ForeignKey('UsersCustomuser', models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'django_admin_log'
-
-
-class DjangoContentType(models.Model):
-    app_label = models.CharField(max_length=100)
-    model = models.CharField(max_length=100)
-
-    class Meta:
-        managed = False
-        db_table = 'django_content_type'
-        unique_together = (('app_label', 'model'),)
-
-
-class DjangoMigrations(models.Model):
-    app = models.CharField(max_length=255)
-    name = models.CharField(max_length=255)
-    applied = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'django_migrations'
-
-
-class DjangoSession(models.Model):
-    session_key = models.CharField(primary_key=True, max_length=40)
-    session_data = models.TextField()
-    expire_date = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'django_session'
-
+    def __str__(self):
+        return self.name
+    
 
 class Hotel(models.Model):
     name = models.CharField(max_length=100)
@@ -136,6 +82,17 @@ class Hotel(models.Model):
     class Meta:
         managed = False
         db_table = 'hotel'
+        verbose_name = "Готель"
+        verbose_name_plural = "Готелі"
+
+
+    def __str__(self):
+        return f'{self.name} {self.stars}* ({self.city}, {self.city.country})'
+
+
+    @property
+    def to_string(self):
+        return f'{self.name} {self.stars}*'
 
 
 class Order(models.Model):
@@ -146,6 +103,13 @@ class Order(models.Model):
     class Meta:
         managed = False
         db_table = 'order'
+        verbose_name = "Замовлення"
+        verbose_name_plural = "Замовлення"
+
+
+    def __str__(self):
+        return f'Order for tour:{self.tour} by {self.client}. Clearance date:{self.clearance_date}'
+    
 
 
 class OrderService(models.Model):
@@ -155,6 +119,8 @@ class OrderService(models.Model):
     class Meta:
         managed = False
         db_table = 'order_service'
+        verbose_name = "Додаткова послуга в замовленні"
+        verbose_name_plural = "Додаткові послуги в замовленнях"
 
 
 class Staff(models.Model):
@@ -167,6 +133,8 @@ class Staff(models.Model):
     class Meta:
         managed = False
         db_table = 'staff'
+        verbose_name = "Службовий персонал"
+        verbose_name_plural = "Службовий персонал"
 
 
 class StaffTour(models.Model):
@@ -176,6 +144,8 @@ class StaffTour(models.Model):
     class Meta:
         managed = False
         db_table = 'staff_tour'
+        verbose_name = "Службовий персоналу турі"
+        verbose_name_plural = "Службовий персонал у турах"
 
 
 class Tour(models.Model):
@@ -183,12 +153,27 @@ class Tour(models.Model):
     tour_type = models.ForeignKey('TourType', models.DO_NOTHING)
     departure_date = models.DateTimeField()
     return_date = models.DateTimeField()
-    tour_cost = models.IntegerField()
     country = models.ForeignKey(Country, models.DO_NOTHING, blank=True, null=True)
+    departure_city = models.ForeignKey(DepartureCity, models.DO_NOTHING)
+    nights = models.IntegerField()
 
     class Meta:
         managed = False
         db_table = 'tour'
+        verbose_name = "Тур"
+        verbose_name_plural = "Тури"
+
+
+    def __str__(self):
+        return f'{self.pk}'
+
+
+    def get_tour_cities(self):
+        return TourCity.objects.filter(tour=self.pk)
+
+
+    def get_tour_hotels(self):
+        return TourHotel.objects.filter(tour=self.pk)
 
 
 class TourCity(models.Model):
@@ -198,6 +183,28 @@ class TourCity(models.Model):
     class Meta:
         managed = False
         db_table = 'tour_city'
+        verbose_name = "Міста у турі"
+        verbose_name_plural = "Міста у турах"
+
+
+    def __str__(self):
+        return f'{self.tour}'
+
+
+class TourHotel(models.Model):
+    tour = models.ForeignKey(Tour, models.CASCADE)
+    hotel = models.ForeignKey(Hotel, models.CASCADE)
+    tour_cost = models.IntegerField()
+
+    class Meta:
+        managed = False
+        db_table = 'tour_hotel'
+        verbose_name = "Готель у турі"
+        verbose_name_plural = "Готелі у турах"
+
+
+    def __str__(self):
+        return f'{self.tour}'
 
 
 class TourType(models.Model):
@@ -206,6 +213,12 @@ class TourType(models.Model):
     class Meta:
         managed = False
         db_table = 'tour_type'
+        verbose_name = "Тип туру"
+        verbose_name_plural = "Типи турів"
+
+
+    def __str__(self):
+        return f'{self.name}'
 
 
 class Transport(models.Model):
@@ -214,6 +227,18 @@ class Transport(models.Model):
     class Meta:
         managed = False
         db_table = 'transport'
+        verbose_name = "Транспорт"
+        verbose_name_plural = "Транспорт"
+
+
+class DjangoContentType(models.Model):
+    app_label = models.CharField(max_length=100)
+    model = models.CharField(max_length=100)
+
+    class Meta:
+        managed = False
+        db_table = 'django_content_type'
+        unique_together = (('app_label', 'model'),)
 
 
 class UsersCustomuser(models.Model):
@@ -232,21 +257,15 @@ class UsersCustomuser(models.Model):
         db_table = 'users_customuser'
 
 
-class UsersCustomuserGroups(models.Model):
-    customuser = models.ForeignKey(UsersCustomuser, models.DO_NOTHING)
-    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
+class DjangoAdminLog(models.Model):
+    action_time = models.DateTimeField()
+    object_id = models.TextField(blank=True, null=True)
+    object_repr = models.CharField(max_length=200)
+    action_flag = models.SmallIntegerField()
+    change_message = models.TextField()
+    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING, blank=True, null=True)
+    user = models.ForeignKey('UsersCustomuser', models.DO_NOTHING)
 
     class Meta:
         managed = False
-        db_table = 'users_customuser_groups'
-        unique_together = (('customuser', 'group'),)
-
-
-class UsersCustomuserUserPermissions(models.Model):
-    customuser = models.ForeignKey(UsersCustomuser, models.DO_NOTHING)
-    permission = models.ForeignKey(AuthPermission, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'users_customuser_user_permissions'
-        unique_together = (('customuser', 'permission'),)
+        db_table = 'django_admin_log'

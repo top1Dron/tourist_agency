@@ -8,6 +8,10 @@ from django.utils.html import escape
 from django.urls import reverse
 from django.utils.safestring import mark_safe
 
+from .models import AdditionalService, City, Client, \
+    Country, DepartureCity, Hotel, Order, OrderService, \
+        Staff, StaffTour, Tour, TourCity, TourHotel, TourType, Transport
+
 
 @admin.register(LogEntry)
 class LogEntryAdmin(admin.ModelAdmin):
@@ -57,9 +61,77 @@ class LogEntryAdmin(admin.ModelAdmin):
     object_link.admin_order_field = "object_repr"
     object_link.short_description = "object"
 
-from .models import AdditionalService
-
 
 @admin.register(AdditionalService)
 class AdditionalServiceAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'cost')
+
+
+@admin.register(City)
+class CityAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'country')
+
+
+@admin.register(Client)
+class ClientAdmin(admin.ModelAdmin):
+    list_display = ('id', 'full_name', 'phone_number')
+
+
+@admin.register(Country)
+class CountryAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name')
+
+
+@admin.register(DepartureCity)
+class DepartureCityAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name')
+
+
+@admin.register(Hotel)
+class HotelAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'city', 'stars')
+
+
+@admin.register(Order)
+class OrderAdmin(admin.ModelAdmin):
+    list_display = ('id', 'client', 'tour', 'clearance_date')
+
+
+@admin.register(OrderService)
+class OrderServiceAdmin(admin.ModelAdmin):
+    list_display = ('id', 'order', 'service')
+
+
+@admin.register(Staff)
+class StaffAdmin(admin.ModelAdmin):
+    list_display = ('id', 'full_name', 'birthday_date', 'salary', 'position', 'phone_number')
+
+
+@admin.register(StaffTour)
+class StaffTourAdmin(admin.ModelAdmin):
+    list_display = ('id', 'staff', 'tour')
+
+
+@admin.register(Tour)
+class TourAdmin(admin.ModelAdmin):
+    list_display = ('id', 'transport', 'tour_type', 'departure_date', 'return_date', 'country', 'departure_city', 'nights')
+
+
+@admin.register(TourCity)
+class TourCityAdmin(admin.ModelAdmin):
+    list_display = ('id', 'tour', 'city')
+
+
+@admin.register(TourHotel)
+class TourHotelAdmin(admin.ModelAdmin):
+    list_display = ('id', 'tour', 'hotel', 'tour_cost')
+
+
+@admin.register(TourType)
+class TourTypeAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name')
+
+
+@admin.register(Transport)
+class TransportAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name')

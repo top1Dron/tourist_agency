@@ -13,6 +13,43 @@ jQuery(document).ready(function() {
 
       //this code is for smooth scroll and nav selector
             $(document).ready(function () {
+                // function to get cookie - need to send crsftoken
+                function getCookie(name) {
+            
+                    var matches = document.cookie.match(new RegExp(
+                    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+                    ))
+                    return matches ? decodeURIComponent(matches[1]) : undefined
+                };
+
+
+                $(document).on('click', '#find-tours-button', function(e) {
+                    e.preventDefault();
+
+                    var url = $("#findAvailableToursForm").attr("find-tours-url");
+                    var countryName = $("#id_tour_country_name").val();
+                    var departureDate = $("#id_departure_date").val();
+                    var nightCount = $("#id_night").val();
+                    var departureCityName = $("#id_tour_departure_city_name").val();
+            
+                    $.ajax({
+                        url: url,
+                        type: "POST",
+                        data: {
+                            csrfmiddlewaretoken: getCookie('csrftoken'),
+                            'country': countryName,
+                            'departure_date':departureDate,
+                            'night_count':nightCount,
+                            'departure_city':departureCityName
+                        },
+                    success: function (data) {
+                        console.log("here");
+                        $("#available_tours_form").html(data);
+                    }
+                    });
+                
+                });
+
               $(document).on("scroll", onScroll);
               
               //smoothscroll
@@ -69,6 +106,4 @@ jQuery(document).ready(function() {
           
         }
      });
-	
-
 });

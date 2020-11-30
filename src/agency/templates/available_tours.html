@@ -1,0 +1,90 @@
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Тури по Вашому запиту </h4>
+              </div>
+                  {% if tours%}
+                  <div class="modal-body">
+                    <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Готель</th>
+                        <th scope="col">Тип туру</th>
+                        <th scope="col">Дата відправлення</th>
+                        <th scope="col">Кількість ночей</th>
+                        <th scope="col">Місто відправлення</th>
+                        <th scope="col">Вартість</th>
+                      </tr>
+                    </thead>
+                    {% for tour in tours%}
+                    {% for tour_hotel in tour.get_tour_hotels %}
+                    <tr scope="row">
+                      <td>
+                          {{ tour_hotel.hotel }}
+                      </td>
+                      <td>
+                          {{ tour.tour_type }} 
+                      </td>
+                      <td>
+                          {{tour.departure_date}}
+                      </td>
+                      <td>
+                          {{tour.nights}}
+                      </td>
+                      <td>
+                          {{tour.departure_city}}
+                      </td>
+                      <td>
+                          {{tour_hotel.tour_cost}} грн
+                      </td>
+                      <td>
+                          <input id="id_create_order_button_{{tour_hotel.id}}" tour-id={{tour.id}} tour-hotel-id={{tour_hotel.id}} data-create-order-url="{% url 'agency:ajax_create_order' %}" type="submit" class="btn btn-primary create-order-button" value="Забронювати місце"/>
+                      </td>
+                    </tr>
+                    {% endfor %}
+                    {% endfor %}
+                    </table>
+                  </div>
+                  {% else %}
+                    <div class="modal-body">
+                      <h3>За вашим запитом турів не знайдено!</h3>
+                    </div>
+                  {% endif%}
+                  <script>
+                    $('body').on('hidden.bs.modal', '.modal', function () {
+                        $(this).removeData('bs.modal');
+                    });
+
+                  $(document).ready(function () {
+                    $(document).on('click', '.create-order-button', function(e) {
+                          e.preventDefault();
+                          var url = $(this).attr("data-create-order-url");
+                          var tourId = $(this).attr("tour-id");
+                          var tourHotelId = $(this).attr("tour-hotel-id");
+
+                          $.ajax({
+                            url: url,
+                            type: 'GET',
+                            data: {
+                              'tour': tourId,
+                              'tour-hotel': tourHotelId,
+                            },
+                            beforeSend: function () {
+                              $("#available-tours-task-modal").modal("hide");
+                              $("#create-order-modal").modal("show");
+                            },
+                            success: function (data) {
+                              $("#create-order-modal .modal-content").html(data);
+                            }
+                          });
+                      });
+                  })
+                  </script>
+              
+              <div class="modal-footer">
+              </div>
+    </div>
+</div>
+
+

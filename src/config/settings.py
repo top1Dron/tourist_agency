@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'dbbackup',
     'django_celery_beat',
+    'widget_tweaks',
 
     'users',
     'agency.apps.AgencyConfig',
@@ -87,9 +88,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'config.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -101,9 +99,6 @@ DATABASES = {
     }
 }
 
-
-# Password validation
-# https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -174,10 +169,10 @@ LOGGING = {
             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
             'handlers': ['file'],
         },
-        'django.template': {
-            'handlers': ['file'],
-            'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
-        },
+        # 'django.template': {
+        #     'handlers': ['file'],
+        #     'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
+        # },
     },
 }
 
@@ -194,3 +189,7 @@ CELERY_RESULT_BACKEND = f'redis://{REDIS_HOST}:{REDIS_PORT}/0'
 CELERY_ACCEPT_CONTENT = ['application/json'] 
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
+
+
+FILE_UPLOAD_HANDLERS = ("django_excel.ExcelMemoryFileUploadHandler",
+                        "django_excel.TemporaryExcelFileUploadHandler")

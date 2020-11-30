@@ -1,0 +1,67 @@
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Бронювання місця у {{tour_hotel.hotel}}</h4>
+            </div>
+            <form method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="id_full_name">ПІБ</label>
+                    <input name="full_name" type="text" class="form-control" id="id_full_name" placeholder="Введіть ПІБ">
+                </div>
+                <div class="form-group">
+                    <label for="id_phone_number">Номер телефону</label>
+                    <input name="phone_number" type="text" class="form-control" id="id_phone_number" placeholder="+38(0хх)ххх-хх-хх">
+                </div>
+                <button id="id_create_order" data-create-order-url="{% url 'agency:ajax_create_order' %}" tour-id="{{tour.id}}" tour-hotel-id={{tour_hotel.id}} type="submit" class="btn btn-primary">Забронювати</button>
+            </form>
+                  
+            <script>
+                $('body').on('hidden.bs.modal', '.modal', function () {
+                    $(this).removeData('bs.modal');
+                });
+
+                $(document).ready(function () {
+                    function getCookie(name) {
+
+                        var matches = document.cookie.match(new RegExp(
+                        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+                        ))
+                        return matches ? decodeURIComponent(matches[1]) : undefined
+                    };
+                    $(document).on('click', '#id_create_order', function(e) {
+                          e.preventDefault();
+                          var url = $(this).attr("data-create-order-url");
+                          var tourId = $(this).attr("tour-id");
+                          var tourHotelId = $(this).attr("tour-hotel-id");
+                          var clientName = $("#id_full_name").val();
+                          var clientPhone = $("#id_phone_number").val();
+
+                          $.ajax({
+                            url: url,
+                            type: 'POST',
+                            data: {
+                              csrfmiddlewaretoken: getCookie('csrftoken'),
+                              'tour': tourId,
+                              'tour-hotel': tourHotelId,
+                              'client-name': clientName,
+                              'client-phone': clientPhone
+                            },
+                            beforeSend: function () {
+                              $("#create-order-modal").modal("hide");
+                              $("#create-order-success-modal").modal("show");
+                            },
+                            success: function (data) {
+                              $("#create-order-success-modal .modal-content").html(data);
+                            }
+                          });
+                          return false;
+                      });
+                    })
+            </script>
+              
+            <div class="modal-footer">
+            </div>
+    </div>
+</div>
