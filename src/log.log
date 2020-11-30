@@ -6865,3 +6865,39 @@ INFO 2020-11-25 20:48:54,634 service 22299 139867947972352 ['Угорщина']
 INFO 2020-11-25 20:48:54,635 service 22299 139867947972352 ['Франція']
 INFO 2020-11-25 21:14:06,154 service 22811 140579579885312 Export database to excel finished successfully
 INFO 2020-11-25 21:36:29,719 service 23221 139903383889664 Export database to excel finished successfully
+INFO 2020-11-30 14:09:31,543 views 28728 140658411808512 <QueryDict: {'csrfmiddlewaretoken': ['zVAA7lryEi4Mjrd2A1xy3rrWHglCOytofRPtYlZhi2vlUvdfe4LOdQFfL4HrPj4o'], 'country': ['1'], 'city[]': ['89'], 'hotel[]': ['7', '5'], 'departure_date': ['02.12.2020'], 'night_count': [''], 'departure_city': ['4']}>
+INFO 2020-11-30 14:09:31,544 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 54>, <Tour: 55>, <Tour: 56>, <Tour: 57>, <Tour: 60>, <Tour: 64>, <Tour: 65>, <Tour: 66>, <Tour: 67>, <Tour: 69>, <Tour: -1>]>
+INFO 2020-11-30 14:09:31,589 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter departure_date
+INFO 2020-11-30 14:09:31,619 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter departure_city
+INFO 2020-11-30 14:09:31,655 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter country
+INFO 2020-11-30 14:09:31,677 service 28728 140658411808512 SELECT "tour_hotel"."id", "tour_hotel"."tour_id", "tour_hotel"."hotel_id", "tour_hotel"."tour_cost" FROM "tour_hotel" WHERE ("tour_hotel"."tour_id" IN (SELECT U0."id" FROM "tour" U0 WHERE ((U0."departure_date" AT TIME ZONE 'Europe/Kiev')::date = 2020-12-02 AND U0."departure_city_id" = 4 AND U0."country_id" = 1)) AND "tour_hotel"."hotel_id" IN (SELECT U0."id" FROM "hotel" U0 WHERE U0."id" IN (7, 5)))
+INFO 2020-11-30 14:09:31,726 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter hotels
+SELECT "tour"."id", "tour"."transport_id", "tour"."tour_type_id", "tour"."departure_date", "tour"."return_date", "tour"."country_id", "tour"."departure_city_id", "tour"."nights" FROM "tour" WHERE "tour"."id" IN (68, 69)
+INFO 2020-11-30 14:09:31,731 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - end filter
+INFO 2020-11-30 14:10:51,781 views 28728 140658411808512 <QueryDict: {'csrfmiddlewaretoken': ['zVAA7lryEi4Mjrd2A1xy3rrWHglCOytofRPtYlZhi2vlUvdfe4LOdQFfL4HrPj4o'], 'country': ['1'], 'city[]': ['89'], 'hotel[]': ['7', '5'], 'departure_date': ['02.12.2020'], 'night_count': [''], 'departure_city': ['4']}>
+INFO 2020-11-30 14:10:51,782 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 54>, <Tour: 55>, <Tour: 56>, <Tour: 57>, <Tour: 60>, <Tour: 64>, <Tour: 65>, <Tour: 66>, <Tour: 67>, <Tour: 69>, <Tour: -1>]>
+INFO 2020-11-30 14:10:51,803 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter departure_date
+INFO 2020-11-30 14:10:51,806 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter departure_city
+INFO 2020-11-30 14:10:51,821 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter country
+INFO 2020-11-30 14:10:51,836 service 28728 140658411808512 SELECT "tour_hotel"."id", "tour_hotel"."tour_id", "tour_hotel"."hotel_id", "tour_hotel"."tour_cost" FROM "tour_hotel" WHERE ("tour_hotel"."tour_id" IN (SELECT U0."id" FROM "tour" U0 WHERE ((U0."departure_date" AT TIME ZONE 'Europe/Kiev')::date = 2020-12-02 AND U0."departure_city_id" = 4 AND U0."country_id" = 1)) AND "tour_hotel"."hotel_id" IN (SELECT U0."id" FROM "hotel" U0 WHERE U0."id" IN (7, 5)))
+INFO 2020-11-30 14:10:51,868 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter hotels
+SELECT "tour"."id", "tour"."transport_id", "tour"."tour_type_id", "tour"."departure_date", "tour"."return_date", "tour"."country_id", "tour"."departure_city_id", "tour"."nights" FROM "tour" WHERE "tour"."id" IN (68, 69)
+INFO 2020-11-30 14:10:51,871 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - end filter
+INFO 2020-11-30 14:13:15,658 views 28728 140658411808512 <QueryDict: {'csrfmiddlewaretoken': ['zVAA7lryEi4Mjrd2A1xy3rrWHglCOytofRPtYlZhi2vlUvdfe4LOdQFfL4HrPj4o'], 'country': ['1'], 'city[]': ['89'], 'hotel[]': ['7', '5'], 'departure_date': ['02.12.2020'], 'night_count': ['6'], 'departure_city': ['4']}>
+INFO 2020-11-30 14:13:15,660 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 54>, <Tour: 55>, <Tour: 56>, <Tour: 57>, <Tour: 60>, <Tour: 64>, <Tour: 65>, <Tour: 66>, <Tour: 67>, <Tour: 69>, <Tour: -1>]>
+INFO 2020-11-30 14:13:15,690 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter departure_date
+INFO 2020-11-30 14:13:15,703 service 28728 140658411808512 <QuerySet []> - filter night_count
+INFO 2020-11-30 14:13:15,711 service 28728 140658411808512 <QuerySet []> - filter departure_city
+INFO 2020-11-30 14:13:15,719 service 28728 140658411808512 <QuerySet []> - filter country
+INFO 2020-11-30 14:13:15,732 service 28728 140658411808512 <QuerySet []> - end filter
+INFO 2020-11-30 14:16:01,917 views 28728 140658411808512 <QueryDict: {'csrfmiddlewaretoken': ['zVAA7lryEi4Mjrd2A1xy3rrWHglCOytofRPtYlZhi2vlUvdfe4LOdQFfL4HrPj4o'], 'country': ['1'], 'city[]': ['89'], 'hotel[]': ['7', '5'], 'departure_date': ['02.12.2020'], 'night_count': [''], 'departure_city': ['4']}>
+INFO 2020-11-30 14:16:01,917 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 54>, <Tour: 55>, <Tour: 56>, <Tour: 57>, <Tour: 60>, <Tour: 64>, <Tour: 65>, <Tour: 66>, <Tour: 67>, <Tour: 69>, <Tour: -1>]>
+INFO 2020-11-30 14:16:01,939 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter departure_date
+INFO 2020-11-30 14:16:01,946 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter departure_city
+INFO 2020-11-30 14:16:01,964 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter country
+INFO 2020-11-30 14:16:01,977 service 28728 140658411808512 SELECT "tour_hotel"."id", "tour_hotel"."tour_id", "tour_hotel"."hotel_id", "tour_hotel"."tour_cost" FROM "tour_hotel" WHERE ("tour_hotel"."tour_id" IN (SELECT U0."id" FROM "tour" U0 WHERE ((U0."departure_date" AT TIME ZONE 'Europe/Kiev')::date = 2020-12-02 AND U0."departure_city_id" = 4 AND U0."country_id" = 1)) AND "tour_hotel"."hotel_id" IN (SELECT U0."id" FROM "hotel" U0 WHERE U0."id" IN (7, 5)))
+INFO 2020-11-30 14:16:02,004 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - filter hotels
+SELECT "tour"."id", "tour"."transport_id", "tour"."tour_type_id", "tour"."departure_date", "tour"."return_date", "tour"."country_id", "tour"."departure_city_id", "tour"."nights" FROM "tour" WHERE "tour"."id" IN (68, 69)
+INFO 2020-11-30 14:16:02,012 service 28728 140658411808512 <QuerySet [<Tour: 68>, <Tour: 69>]> - end filter
+INFO 2020-11-30 14:20:52,757 service 28728 140658411808512 Procedure create_order executed successful
+INFO 2020-11-30 15:19:47,914 service 28987 140096425027328 Export database to excel finished successfully

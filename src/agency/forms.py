@@ -56,7 +56,7 @@ class DepartureCitySearchForm(forms.ModelForm):
 
 class DepartureDateForm(forms.Form):
 
-    departure_date = forms.DateField(label='Дата вильоту з...по')
+    departure_date = forms.DateField(label='Дата вильоту')
 
     def clean_renewal_date(self):
         data = self.cleaned_data['departure_date']

@@ -114,7 +114,7 @@
 					{{ form.non_field_errors }}	
 					<div class="form-group ">
 						{{ country_search_form.name.errors }}</br></br>
-						<label for="id_tour_country_name" class="pull-left">Куди країна:</label></br>
+						<label for="id_tour_country_name" class="pull-left">До країни:</label></br>
 						{{country_search_form.name|attr:"id:id_tour_country_name"}}
 					</div>
 					<div class="form-group ">
@@ -124,7 +124,7 @@
 					</div>
 					<div class="form-group col-md-offset-5">
 						{{ city_search_form.name.errors }}
-						<label for="id_tour_city_name">Куди місто:</label></br>
+						<label for="id_tour_city_name">До міст:</label></br>
 						{% render_field city_search_form.name id='id_tour_city_name' name="tour_city_name" multiple="multiple"%}
 					</div>
 					<div class="form-group col-2">
@@ -135,7 +135,7 @@
 					</div>
 					<div class="form-group col-md-offset-5">
 						{{ hotel_search_form.name.errors }}
-						<label for="id_tour_hotel_name">Куди готель:</label></br>
+						<label for="id_tour_hotel_name">До готелей:</label></br>
 						{{hotel_search_form.name|attr:"id:id_tour_hotel_name"}}
 					</div>
 					
