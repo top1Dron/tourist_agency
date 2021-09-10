@@ -47,7 +47,7 @@ redis==3.5.3
 requests==2.25.0
 six==1.15.0
 soupsieve==2.0.1
-sqlparse==0.4.1
+sqlparse==0.4.2
 texttable==1.6.3
 toml==0.10.2
 tzlocal==2.1
